@@ -1,0 +1,203 @@
+/* styles.css
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .app {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .feature {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feature h2 {
+    margin-top: 0;
+  }
+  
+  .symptom-checker {
+    width: 300px;
+  }
+  
+  .symptom-checker form {
+    margin-bottom: 20px;
+  }
+  
+  .symptom-checker input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+  }
+  
+  .symptom-checker button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .symptom-checker button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  .symptom-checker ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .symptom-checker li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .symptom-checker li:last-child {
+    border-bottom: none;
+  }
+  
+  .government-health-schemes {
+    width: 300px;
+  }
+  
+  .government-health-schemes ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .government-health-schemes li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .government-health-schemes li:last-child {
+    border-bottom: none;
+  }
+  
+  .medical-records {
+    width: 300px;
+  }
+  
+  .medical-records ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .medical-records li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .medical-records li:last-child {
+    border-bottom: none;
+  }
+  
+  .medical-records .record-details {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .educational-health-blogs {
+    width: 300px;
+  }
+  
+  .educational-health-blogs ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .educational-health-blogs li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .educational-health-blogs li:last-child {
+    border-bottom: none;
+  }
+  
+  .educational-health-blogs .blog-post {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  } */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c7ccd6;
+    
+  }
+  
+  nav {
+    background-color: #282c34;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav a {
+    color: #61dafb;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .app {
+    text-align: center;
+  }
+  
+  .home-page, .feature-page {
+    padding: 2rem;
+  }
+  
+  .heading{
+    color: #06122a;
+    
+  }
+  
+  button {
+    background-color: #61dafb;
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #4fa3b7;
+  }
+  
