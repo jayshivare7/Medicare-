@@ -187,7 +187,10 @@ body {
     color: #06122a;
     
   }
-  
+  /* .docimg{
+    height:'100%';
+    width: '100%';
+  } */
   button {
     background-color: #61dafb;
     border: none;
