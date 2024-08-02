@@ -8,7 +8,24 @@ function SymptomChecker() {
       <form>
         <label>
           Symptoms:
+          <div style={{height:'10px'}}>
+
+</div>
           <input type="text" placeholder="Enter symptoms here" />
+          <br/>
+          <div style={{height:'10px'}}>
+
+          </div>
+          <input type="text" placeholder="Enter symptoms here" />
+          <br/>
+          <div style={{height:'10px'}}>
+
+</div>
+          <input type="text" placeholder="Enter symptoms here" />
+          <br/>
+          <div style={{height:'10px'}}>
+
+</div>
         </label>
         <button type="submit">Check Symptoms</button>
       </form>
